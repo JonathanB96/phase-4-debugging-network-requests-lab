@@ -63,11 +63,15 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+  there was a NameError Exception: I changed "Toys" to "Toy"
 
 - Update the number of likes for a toy
-
+ 
   - How I debugged:
+  I added the "render" method in the "update" action
+  I had unpremitted parameters I needed to add in my "toy_params method".
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+I added the missing route for "destroying" the toy
